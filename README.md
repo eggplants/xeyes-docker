@@ -20,5 +20,4 @@ docker run -it -e DISPLAY="$DISPLAY" \
 
 ## Capture
 
-![image](https://user-images.githubusercontent.com/42153744/132149348-b0509d49-ccaa-4501-8844-9d38d41626a1.png)
-
+![image](https://user-images.githubusercontent.com/42153744/132150875-120e6a1e-d1c2-4bf6-a639-3463afc6784e.png)
