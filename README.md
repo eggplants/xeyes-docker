@@ -16,6 +16,12 @@ curl -sL https://git.io/JuYsG | docker-compose -f- up
 docker run -it -e DISPLAY="$DISPLAY" \
                -v /tmp/.X11-unix:/tmp/.X11-unix \
                eggplanter/xeyes
+
+# For Mac
+defaults write org.xquartz.X11.plist nolisten_tcp 0
+docker run -it -e DISPLAY="$DISPLAY" \
+               -v ~/.Xauthority:/root/.Xauthority \
+               eggplanter/xeyes
 ```
 
 ## Capture
